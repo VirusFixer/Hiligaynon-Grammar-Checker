@@ -1,2 +1,2 @@
-# Hiligaynon-Grammar-Checker
+# Hiligaynon-Checker
 
