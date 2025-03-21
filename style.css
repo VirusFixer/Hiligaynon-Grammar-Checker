@@ -1,24 +1,41 @@
+
+
+/* color palletes 
+#DEF2F1; light blue
+#3AAFA9 bluegreen
+#FEFFFF WHITE 
+*/
+
+body{
+  height: 100vh;
+}
+
 .navbar, a {
-  background-color: #3AAFA9 !important; /* Override bg-light */
+  background-color: #3AAFA9 !important; 
   color: white !important;
 }
 
 form {
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin: 0;
+  height: 40vh;
 }
 
 .form-group{
-  width: 500px; 
+  width: 40%; 
+  height: 250px;
+  max-width: 950px;
   padding: 20px 20px 20px 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   align-items: center;
   text-align: left;
   background-color: #FEFFFF;
+  
 }
 
 .directions{
@@ -42,12 +59,12 @@ label{
 }
 
 .output-container {
-  width: 500px;
-  height: 215px;
+  width: 40%;
+  max-width: 950px;
+  height: 250px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin-left: 20px;
   background-color: #FEFFFF;
 }
 
@@ -57,16 +74,24 @@ label{
   padding: 10px;
 }
 
+.translator {
+  margin: auto;
+  width: 80%; 
+  height: 200px;
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #FEFFFF;
+ 
+}
+
+.translate {
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+}
 
 
-/* color palletes 
-
-#DEF2F1; light blue
-#3AAFA9 bluegreen
-#FEFFFF WHITE
-
-
-
-*/
 
 

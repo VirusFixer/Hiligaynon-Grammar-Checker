@@ -1,22 +1,4 @@
 
-function limitWords(event) {
-  const maxWords = 100; 
-  const words = event.target.value.split(/\s+/);
-  
-  if (words.length > maxWords) {
-
-      event.target.value = words.slice(0, maxWords).join(" ");
-  }
-}
-
-function preventAdditionalTyping(event) {
-  const maxWords = 100;
-  const words = event.target.value.split(/\s+/);
-  
-  if (words.length > maxWords) {
-      event.preventDefault(); 
-  }
-}
 
 // Get Text from the textarea
 
