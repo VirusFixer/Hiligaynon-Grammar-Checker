@@ -49,6 +49,8 @@ label{
  
 }
 
+
+
 .nav-brand, a{
   margin-left: 30px;
   font-weight: bold;
@@ -66,12 +68,6 @@ label{
   background-color: #FEFFFF;
 }
 
-<<<<<<< HEAD
-/* color palletes 
-#DEF2F1; light blue
-#3AAFA9 bluegreen
-#FEFFFF WHITE */
-=======
 .output {
   color: #333;
   font-size: 16px;
@@ -89,7 +85,6 @@ label{
   background-color: #FEFFFF;
  
 }
->>>>>>> 1459df953223a066c0b1caaed6ef4f9f12e949ae
 
 .translate {
   color: #333;
@@ -98,9 +93,5 @@ label{
 }
 
 
-<<<<<<< HEAD
-=======
 
 
-
->>>>>>> 1459df953223a066c0b1caaed6ef4f9f12e949ae
