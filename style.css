@@ -7,7 +7,8 @@
 */
 
 body{
-  height: 100vh;
+  height: 120vh;
+  font-size: 1.2vw;
 }
 
 .navbar, a {
@@ -20,7 +21,7 @@ form {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   margin: 0;
   height: 40vh;
 }
@@ -46,7 +47,11 @@ form {
 
 label{
   margin-bottom: 10px;
- 
+ font-size: 1rem;
+}
+
+::placeholder{
+  font-size: 1rem;
 }
 
 
@@ -74,6 +79,32 @@ label{
   padding: 10px;
 }
 
+.suggestion_box{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.suggestion {
+  margin: auto;
+  width: 80%; 
+  height: 200px;
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #FEFFFF;
+ 
+}
+
+.suggest {
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+}
+
+
 .translator {
   margin: auto;
   width: 80%; 
@@ -91,6 +122,10 @@ label{
   font-size: 16px;
   padding: 10px;
 }
+
+
+
+
 
 
 
