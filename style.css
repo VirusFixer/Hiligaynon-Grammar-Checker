@@ -105,23 +105,6 @@ label{
 }
 
 
-.translator {
-  margin: auto;
-  width: 80%; 
-  height: 200px;
-  display: flex;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #FEFFFF;
- 
-}
-
-.translate {
-  color: #333;
-  font-size: 16px;
-  padding: 10px;
-}
 
 
 
